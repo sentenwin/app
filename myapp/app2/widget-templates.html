@@ -1,0 +1,2366 @@
+
+ <!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:16:11 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chief Minister's Public Grievances Redressal</title>
+
+        <!-- Vendor CSS -->
+        <link href="vendors/fullcalendar/fullcalendar.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header id="header">
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+            
+                <li class="logo hidden-xs">
+                    <a href="index.html">Chief Minister's Special cell</a>
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        <a class="tm-search" href="#"></a>
+                    </li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="tm-settings" href="#"></a>
+                        <ul class="dropdown-menu dm-icon pull-right">
+                            <li>
+                                <a data-action="fullscreen" href="#"></i>Tamil version</a>
+                            </li>
+                            <li>
+                                <a data-action="clear-localstorage" href="#"></i> English version</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <!--<li class="hidden-xs" id="chat-trigger" data-trigger="#chat">
+                        <a class="tm-chat" href="#"></a>
+                    </li>-->
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+            <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/1.jpg" alt="">
+
+                                </div>
+                                
+                                <div class="profile-info">
+                                Chief Minister's Special cell
+                                    
+                                   
+                                </div>
+                            </a>
+                            
+                         
+                        </div>
+                        
+                        <ul class="main-menu">
+                            <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="login.html"><i class="md-arrow-forward"></i>Login and Sign Up</a></li>
+                              <li><a href="widgets.html"><i class="md-arrow-forward"></i>Login and Sign Up</a></li>
+                            <li><a href="colors.html"><i class="md-question-answer"></i> Lodge Your Grievance</a></li>
+                            <li><a href="calendar.html"><i class="md-insert-chart"></i>Track Your Grievance</a></li>
+                            <li><a href="widget.html"><i class="md-event-note"></i> CMPRF Beneficiaries</a></li>
+                            <li><a href="widget-templates.html"><i class="md-comment"></i>Feedback</a></li>
+                            <li><a href="list-view.html"><i class="md-mode-comment"></i>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            
+           
+            
+            <section id="content">
+                <div class="container">
+                    <div class="block-header">
+
+                    <!-- Basic -->
+                    <!--<div class="block-header">
+                        <h2>Basic Examples</h2>
+                        
+                        <ul class="actions">
+                            <li>
+                                <a href="#">
+                                    <i class="md md-trending-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="md md-done-all"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <i class="md md-more-vert"></i>
+                                </a>
+                                
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="#">Refresh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets Settings</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Default Example <small>You can type anything here...</small></h2>
+
+                                    <ul class="actions">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header ch-alt">
+                                    <h2>Alternative Example <small>You can type anything here...</small></h2>
+
+                                   <ul class="actions">
+                                        <li>
+                                            <a href="#">
+                                                <i class="md md-cached"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="md md-file-download"></i>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Change Date Range</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Change Graph Type</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Other Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis.
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <br/>
+                    <br/>
+
+                    <!-- Colored Headers -->
+                    <div class="block-header">
+                        <h2>CM Beneficiaries </h2>
+                        
+                        <ul class="actions">
+                            <li>
+                                <a href="#">
+                                    <i class="md md-trending-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="md md-done-all"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <i class="md md-more-vert"></i>
+                                </a>
+                                
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="#">Refresh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets Settings</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>september 28,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr280912_354.pdf" class="style3" target="_blank" >[Press Release No.354   ]&nbsp; September 28, 2012 - Solatium from CMPRF to the family of the Police Official who lost his life due to bad health  </a>
+              </tr>
+              </tr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>september 27,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr270912_351.pdf" class="style3" target="_blank" >[Press Release No.351   ]&nbsp; September 27, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their lives while on duty </a>
+              </tr>
+          </table>
+              
+                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>september 24,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr240912_349.pdf" class="style3" target="_blank" >[Press Release No.349   ]&nbsp; September 24, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their lives while on duty </a>
+              </tr>
+          </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 21,1012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr210912_348.pdf" class="style3" target="_blank" >[Press Release No.348   ]&nbsp; September 21, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+              </tr>
+          </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 15,2012 </h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr150912_342.pdf" class="style3" target="_blank" >[Press Release No.342   ]&nbsp; September 15, 2012 - Solatium from CMPRF to the injured and to the family of the persons who lost their lives in different road accidents in the State </a>
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr150912_343.pdf" class="style3" target="_blank" >[Press Release No.343   ]&nbsp; September 15, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their lives while on duty </a>
+              
+              </tr>
+          </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 12,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr120912_333.pdf" class="style3" target="_blank" >[Press Release No.333   ]&nbsp; September 12, 2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their lives in different road accidents in the State </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr120912_334.pdf" class="style3" target="_blank" >[Press Release No.334   ]&nbsp; September 12, 2012 - Solatium to the family of the person who was trampled to death by wild elephant in Coimbatore District  </a
+             
+              </tr>
+          </table>
+              
+                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 11,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr110912_330.pdf" class="style3" target="_blank" >[Press Release No.330   ]&nbsp; September 11, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their lives while on duty </a>
+
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pressreleases.php" class="style3" target="_blank" >[Press Release No.331   ]&nbsp; September 11, 2012 - Solatium from 
+              </tr>
+          </table>
+              
+                        
+           
+              
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 07,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr070912_325.pdf" class="style3" target="_blank" >[Press Release No.325   ]&nbsp; September 7, 2012 - Solatium to the family of the person who was trampled to death by wild elephant in Coimbatore District </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr070912_326.pdf" class="style3" target="_blank" >[Press Release No.326   ]&nbsp; September 7, 2012 - Solatium from Chief Ministers Public Relief Fund to the family of the persons who lost thier lives in the road accidents in Chennai </a>
+             
+              
+              </tr>
+          </table>
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 05,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr050912_323.pdf" class="style3" target="_blank" >[Press Release No.323   ]&nbsp; September 5, 2012 - Solatium from CMPRF to those injured and to the family of the persons died in the fire accident in Fireworks Factory, Virudhunagar District </a>
+              
+                                  
+              </tr>
+          </table>
+              
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 04,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr040912_320.pdf" class="style3" target="_blank" >[Press Release No.320   ]&nbsp; September 4, 2012 - Solatium from CMPRF to the family of the Police Official who lost his life while on duty </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr040912_321.pdf" class="style3" target="_blank" >[Press Release No.321   ]&nbsp; September 4, 2012 - Solatium from Chief Ministers Public Relief Fund to those injured and to the family of the persons who lost their 
+              </tr>
+          </table>
+              
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-green">
+                                    <h2>September 03,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr030912_316.pdf" class="style3" target="_blank" >[Press Release No.316   ]&nbsp; September 3, 2012 - Solatium to the family of the person who was trampled to death by wild elephant in Nilgiris District </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr030912_317.pdf" class="style3" target="_blank" >[Press Release No.317   ]&nbsp; September 3, 2012 - Solatium from CMPRF to the families of the persons who lost their lives in road accidents in Ramanathapuram and Chennai 
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>october 31,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr311012_386.pdf" class="style3" target="_blank" >[Press Release No.386   ]&nbsp;  October 31,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in different incidents that </tr>
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 29,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr291012_385.pdf" class="style3" target="_blank" >[Press Release No.385   ]&nbsp; October 29,2012 - Solatium from CMPRF to the family of the Bus Driver who was hacked to death while on duty </a>
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 28,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281012_380.pdf" class="style3" target="_blank" >[Press Release No.380   ]&nbsp; October 28,2012 - Solatium from CMPRF to the family of the persons who lost their lives in road accidents in Villupuram District </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281012_381.pdf" class="style3" target="_blank" >[Press Release No.381   ]&nbsp; October 28,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life due to bad health </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281012_382.pdf" class="style3" target="_blank" >[Press Release No.382   ]&nbsp; October 28,2012 - Solatium from CMPRF to the family of those who lost their life in the accidents that occured due to recent rains </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281012_383.pdf" class="style3" target="_blank" >[Press Release No.383   ]&nbsp; October 28,2012 - Solatium from CMPRF to those injured and to the family of the person who lost his live while averting a group clash in 
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 25,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr251012_377.pdf" class="style3" target="_blank" >[Press Release No.377   ]&nbsp; October 25,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in different road accidents in the State  </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr251012_378.pdf" class="style3" target="_blank" >[Press Release No.378   ]&nbsp; October 25,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr251012_379.pdf" class="style3" target="_blank" >[Press Release No.379   ]&nbsp; October 25,2012 - Solatium from CMPRF to the family of those who lost their life in the accidents occured due to rain </a>
+              
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 20,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr201012_373.pdf" class="style3" target="_blank" >[Press Release No.373   ]&nbsp; October 20,2012 - Solatium from CMPRF to the family of the victims of the recent rains in the state </a>
+           
+                        
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 19,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                 <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr191012_369.pdf" class="style3" target="_blank" >[Press Release No.369   ]&nbsp; October 19,2012 - Solatium from CMPRF to the family of the persons died in the accident in Fireworks Manufacturing Unit, Virudhunagar District </a>
+
+                                 <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr191012_370.pdf" class="style3" target="_blank" >[Press Release No.370   ]&nbsp; October 19,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+
+                                 <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr191012_371.pdf" class="style3" target="_blank" >[Press Release No.371   ]&nbsp; October 19,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in the road accident inTiruchirappalli District </a>
+              
+                        
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 17,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                              <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr171012_368.pdf" class="style3" target="_blank" >[Press Release No.368   ]&nbsp; October 17,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their lives in different road accidents in the State </a>
+             
+           
+                        
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 12,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                              <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr121012_365.pdf" class="style3" target="_blank" >[Press Release No.365   ]&nbsp; October 12,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+             
+                        
+           
+                        
+              
+              </tr>
+          </table>
+             
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 11,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                             <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr111012_362.pdf" class="style3" target="_blank" >[Press Release No.362   ]&nbsp; October 11,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their lives in different road accidents in the State </a>
+
+                             <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr111012_363.pdf" class="style3" target="_blank" >[Press Release No.363   ]&nbsp; October 11,2012 - Solatium to the family of the person who was trampled to death by wild elephant in Nilgiris District </a>
+
+                             <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr111012_364.pdf" class="style3" target="_blank" >[Press Release No.364   ]&nbsp; October 11,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+             
+              
+                        
+              </tr>
+          </table>
+                        
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-purple">
+                                    <h2>October 04,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                            <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_355.pdf" class="style3" target="_blank" >[Press Release No.355   ]&nbsp; October 4,2012 - Solatium from CMPRF to the family of the persons who lost their lives in lightening due to rain and land slide </a>
+
+                            <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_356.pdf" class="style3" target="_blank" >[Press Release No.356   ]&nbsp; October 4,2012 - Solatium from CMPRF to the family of the persons who lost their lives in road accidents in Kancheepuram and Madurai Districts </a>
+
+                            <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_357.pdf" class="style3" target="_blank" >[Press Release No.357   ]&nbsp; October 4,2012 - Solatium from CMPRF to the family of the Police Officials who lost their lives while on duty </a>
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 26,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                            <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr261112_423.pdf" class="style3" target="_blank" >[Press Release No.423   ]&nbsp; November 26,2012 - Solatium from CMPRF to the family of the person who lost his life in road accidents in Coimbatore District </a>
+              </tr>
+          </table>
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 23,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr231112_421.pdf" class="style3" target="_blank" >[Press Release No.421   ]&nbsp; November 23,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+              </tr>
+          </table>
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 21,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr211112_419.pdf" class="style3" target="_blank" >[Press Release No.419   ]&nbsp; November 21,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life due to bad health and Heart attack  </a>
+              
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 19,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr191112_415.pdf" class="style3" target="_blank" >[Press Release No.415   ]&nbsp; November 19,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+
+
+              </tr>
+          </table>
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 19,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr191112_415.pdf" class="style3" target="_blank" >[Press Release No.415   ]&nbsp; November 19,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+
+                                    
+              </tr>
+          </table>
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 15,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr151112_407.pdf" class="style3" target="_blank" >[Press Release No.407   ]&nbsp; November 15,2012 - Solatium from CMPRF to the family of the person who lost his life in road accidents in Kancheepuram District </a>
+               
+                                   
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 10,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr101112_404.pdf" class="style3" target="_blank" >[Press Release No.404   ]&nbsp; November 10,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+              </tr>
+                                   
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 08,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr081112_401.pdf" class="style3" target="_blank" >[Press Release No.401   ]&nbsp; November 8,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr081112_402.pdf" class="style3" target="_blank" >[Press Release No.402   ]&nbsp; November 8,2012 - Solatium from CMPRF to the family of those who lost their life in the accidents that occured due to recent rains </a>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 06,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061112_395.pdf" class="style3" target="_blank" >[Press Release No.395   ]&nbsp; November 6,2012 - Solatium from CMPRF to the family of those who lost their life in the Thevar Jayanthi related violence at Madurai </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061112_397.pdf" class="style3" target="_blank" >[Press Release No.397   ]&nbsp; November 6,2012 - Solatium from CMPRF to the family of the Fire Service personnel who lost his life due to balcony collapse  </a>
+
+                                   ><a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061112_398.pdf" class="style3" target="_blank" >[Press Release No.398   ]&nbsp; November 6,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in different road accidents in the State </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061112_399.pdf" class="style3" target="_blank" >[Press Release No.399   ]&nbsp; November 6,2012 - Solatium from CMPREF to the family of the person who lost his life in the Thevar Jayanthi related violence at Madurai  </a>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+             
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 05,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr051112_393.pdf" class="style3" target="_blank" >[Press Release No.393   ]&nbsp; November 5,2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty  </a>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+             
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-orange">
+                                    <h2>November 04,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_389.pdf" class="style3" target="_blank" >[Press Release No.389   ]&nbsp; November 4,2012 - Solatium from CMPRF to the family of those who lost their life in various incidents that occured due to recent rains </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_390.pdf" class="style3" target="_blank" >[Press Release No.390   ]&nbsp; November 4,2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in different road accidents in the State </a>
+
+                                   ><a href="http://cms.tn.gov.in//sites/default/files/press_release/pr041012_392.pdf" class="style3" target="_blank" >[Press Release No.392   ]&nbsp; November 4,2012 - Solatium from CMPRF to the family of those who lost their life in the Devar Janthi related issues violence at Madurai  </a>
+              </tr>
+          </table>
+              
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 28,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281212_464.pdf" class="style3" target="_blank" >[Press Release No.464   ]&nbsp; December 28, 2012 - Solatium from CMPRF to the family of the person who lost his life in a road accident </a>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr281212_465.pdf" class="style3" target="_blank" >[Press Release No.465   ]&nbsp; December 28, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life, due to various reasons </a>
+              </tr>
+          </table>
+              </tr>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div><div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 26,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr261212_461.pdf" class="style3" target="_blank" >[Press Release No.461   ]&nbsp; December 26, 2012 - Solatium from CMPRF to those injured and to the family of the persons who died in the fire accidents in Fireworks and Match Factories in Salem and Tirunelveli Districts  </a>
+              </tr>
+              </tr>
+          </table>
+              </tr>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                          </div><div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 24,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr241212_457.pdf" class="style3" target="_blank" >[Press Release No.457   ]&nbsp; December 24, 2012 - Solatium from CMPRF to the family of the girl student who was killed in Tuticorin District </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr241212_458.pdf" class="style3" target="_blank" >[Press Release No.458   ]&nbsp; December 24, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life, due to various reasons </a>
+
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr241212_459.pdf" class="style3" target="_blank" >[Press Release No.459   ]&nbsp; December 24, 2012 - Solatium to the family of the persons who were trampled to death by wild elephant in Krishnagiri District and Coimbatore District  </a>
+              </tr>
+          </table>
+              
+              </tr>
+          </table>
+              
+              </tr>
+          </table>
+              
+          </table>
+              </tr>
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+                        
+           
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        </div><div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 21,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr211212_454.pdf" class="style3" target="_blank" >[Press Release No.454   ]&nbsp; December 21, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life, due to various reasons </a>
+
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr211212_455.pdf" class="style3" target="_blank" >[Press Release No.455   ]&nbsp; December 21, 2012 - Solatium from CMPRF to those injured and to the family of the persons who lost their life in different road accidents in the State </a>
+
+
+
+              </tr>
+          </table>
+              </tr>
+          </table>
+              
+                        
+                                 
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        </div><div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 12,2012</h2>
+
+                                    <!--<ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown" aria-expanded="false">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Refresh</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Manage Widgets</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Widgets Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr121212_445.pdf" class="style3" target="_blank" >[Press Release No.445   ]&nbsp; December 12, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life due to various reasons </a>
+
+                                    
+
+              </tr>
+          </table>
+                        
+                                 
+         
+              </tr>
+          </table>
+            
+              
+              
+             
+           
+                        
+          
+                                  
+             
+              
+            
+                        
+                             </div>
+                            </div>
+                        </div>
+                        </div><div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 07,2012</h2>
+
+                                   
+                                </div>
+
+                                <div class="card-body card-padding">
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr071212_440.pdf" class="style3" target="_blank" >[Press Release No.440   ]&nbsp; December 7, 2012 - Solatium from CMPRF to the family of the person who was electrocuted in Chennai District </a>
+                                   <br>
+
+                                   <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr071212_441.pdf" class="style3" target="_blank" >[Press Release No.441   ]&nbsp; December 7, 2012 - Solatium from CMPRF to the family of the Police Officials who 
+         
+              </tr>
+          </table>
+            
+              
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 06,2012</h2>
+
+                                   
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061212_435.pdf" class="style3" target="_blank" >[Press Release No.435   ]&nbsp; December 6, 2012 - Solatium from CMPRF to the family of the Police Officials who lost their life while on duty </a><br><a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061212_436.pdf" class="style3" target="_blank" >[Press Release No.436   ]&nbsp; December 6, 2012 - Solatium from CMPRF to the family of the person who lost his life in road accident in Pudukkottai District  </a><br><a href="http://cms.tn.gov.in//sites/default/files/press_release/pr061212_437.pdf" class="style3" target="_blank" >[Press Release No.437   ]&nbsp; December 6, 2012 - Solatium to the family of the person who was trampled to death by wild elephant in coimbatore district.             
+                                   </div>
+                            </div>
+                        </div>
+                       <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 03,2012</h2>
+
+                                   
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr031212_432.pdf" class="style3" target="_blank" >[Press Release No.432   ]&nbsp; December 3, 2012 - Solatium from CMPRF to the family of the person who lost his life due to Burns in Madurai District </a>
+              </tr>
+          </table>
+              
+                                 </div>
+                            </div>
+                        </div>
+                         <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-red">
+                                    <h2>December 01,2012</h2>
+
+                                   
+                                </div>
+
+                                <div class="card-body card-padding">
+                                  <a href="http://cms.tn.gov.in//sites/default/files/press_release/pr011212_430.pdf" class="style3" target="_blank" >[Press Release No.430   ]&nbsp; December 1, 2012 - Solatium from CMPRF to the family of the the Krishnagiri District Collectorate staff who lost his life in a road accident </a>
+              </tr>
+          </table>
+              
+              
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+
+                        
+                        
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    
+                    <br/>
+                    <br/>
+
+                   <!-- No Header -->
+                    <!--<div class="block-header">
+                        <h2>No Header <small>Please refer 'Colors' page in 'User Interface' for more color classes</small></h2>
+                        
+                        <ul class="actions">
+                            <li>
+                                <a href="#">
+                                    <i class="md md-trending-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="md md-done-all"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <i class="md md-more-vert"></i>
+                                </a>
+                                
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="#">Refresh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets Settings</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding bgm-teal c-white">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding bgm-lime c-white">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding bgm-pink c-white">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding bgm-amber c-white">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body card-padding bgm-gray c-white">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <br/>
+                    <br/>
+
+                    <!-- Extra -->
+                    <!--<div class="block-header">
+                        <h2>Some Material Design Flavour</h2>
+                        
+                        <ul class="actions">
+                            <li>
+                                <a href="#">
+                                    <i class="md md-trending-up"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="md md-done-all"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">
+                                    <i class="md md-more-vert"></i>
+                                </a>
+                                
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a href="#">Refresh</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Manage Widgets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Widgets Settings</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header ch-alt m-b-20">
+                                    <h2>Some Title <small>Phasellus condimentum ipsum id auctor</small></h2>
+                                    <ul class="actions">
+                                        <li>
+                                            <a href="#">
+                                                <i class="md md-cached"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="md md-file-download"></i>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Change Date Range</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Change Graph Type</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Other Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    <button class="btn bgm-red btn-float waves-effect"><i class="md md-add"></i></button>
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-header bgm-bluegray m-b-20">
+                                    <h2>Some Title <small>Phasellus condimentum ipsum id auctor</small></h2>
+                                    <ul class="actions actions-alt">
+                                        <li class="dropdown">
+                                            <a href="#" data-toggle="dropdown">
+                                                <i class="md md-more-vert"></i>
+                                            </a>
+                                            
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li>
+                                                    <a href="#">Change Date Range</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Change Graph Type</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Other Settings</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    <button class="btn bgm-blue btn-float waves-effect"><i class="md md-send"></i></button>
+                                </div>
+
+                                <div class="card-body card-padding">
+                                    Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis. 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </section>
+        </section>
+
+        <!-- Older IE warning message -->
+        <!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">IE SUCKS!</h1>
+                <p>You are using an outdated version of Internet Explorer, upgrade to any of the following web browser <br/>in order to access the maximum functionality of this website. </p>
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="img/browsers/chrome.png" alt="">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="img/browsers/firefox.png" alt="">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="img/browsers/opera.png" alt="">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="img/browsers/safari.png" alt="">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="img/browsers/ie.png" alt="">
+                            <div>IE (New)</div>
+                        </a>
+                    </li>
+                </ul>
+                <p>Upgrade your browser for a Safer and Faster web experience. <br/>Thank you for your patience...</p>
+            </div>   
+        <![endif]-->
+        
+        
+        <!-- Javascript Libraries -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+       
+        <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/waves/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/sweet-alert/sweet-alert.min.js"></script>
+        
+        <script src="js/functions.js"></script>
+        <script src="js/demo.js"></script>
+    </body>
+  
+<!-- Mirrored from byrushan.com/projects/ma/v1-3-1/widget-templates.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2015 13:18:30 GMT -->
+</html>
